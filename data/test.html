@@ -1,0 +1,13 @@
+<!-- test frame, to be re-written -->
+<script>
+
+navigator.mozInputMethod.oninputcontextchange = function() {
+  if (navigator.mozInputMethod.inputcontext) {
+    navigator.mozInputMethod.inputcontext.replaceSurroundingText('foo');
+  }
+};
+
+</script>
+<button type="button"
+  onclick="navigator.mozInputMethod.inputcontext.replaceSurroundingText('bar');"
+  onmousedown="console.log('x'); return false;">\o/</button>

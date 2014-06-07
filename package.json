@@ -1,0 +1,10 @@
+{
+  "name": "virtual-keyboard-firefox",
+  "title": "Firefox OS Keyboards in Firefox",
+  "homepage": "https://github.com/timdream/virtual-keyboard-firefox",
+  "id": "virtual-keyboard-firefox@timdream.org",
+  "description": "An add-on make FxOS keyboards usable in Firefox.",
+  "author": "Tim Chien",
+  "license": "MIT License",
+  "version": "0.1"
+}
